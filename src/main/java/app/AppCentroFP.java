@@ -1,11 +1,8 @@
 package app;
 
 import dao.entities.Calificacion;
-import dao.entities.Modulo;
-import service.CentroFPServicio;
+import service.CentroFPService;
 import service.api.ApiCallException;
-import service.api.CalificacionesApiCaller;
-import service.api.CalificacionesApiCallerImpl;
 import service.dto.RecordDTO;
 
 import java.io.IOException;
@@ -13,7 +10,7 @@ import java.util.List;
 
 public class AppCentroFP {
 
-    CentroFPServicio centroFPServicio  = new CentroFPServicio();
+    CentroFPService centroFPServicio  = new CentroFPService();
 
     public static void main(String[] args) {
         AppCentroFP appCentroFP = new AppCentroFP();

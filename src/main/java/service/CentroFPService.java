@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CentroFPServicio {
+public class CentroFPService {
 
     CalificacionesApiCaller calificacionesApiCaller = new CalificacionesApiCallerImpl("https://api.jsonbin.io/v3/b/684069908960c979a5a53c21");
     ModuloJdbcDao moduloJdbcDao = new ModuloJdbcDao();

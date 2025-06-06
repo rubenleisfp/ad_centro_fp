@@ -70,6 +70,7 @@ Para construir la aplicación, se propone seguir la siguiente secuencia de pasos
 2.- Modelado de DTOs: Dentro de la capa service, define las Clases de Transferencia de Datos (DTOs) que representen la estructura del JSON del API: ModuloDTO, RecordDTO y EstudianteDTO.
 
 3.- Consumo del API: En la capa service, crea una clase llamada CalificacionesApiCaller. Esta clase será responsable de realizar la llamada al API y de devolver un objeto RecordDTO con los datos obtenidos.
+
 4.- Modelado de Entidades DAO: En la capa DAO (Data Access Object), crea las clases Modulo y Calificacion. Estas clases representarán las tablas correspondientes en la base de datos.
 
 5.- DAO para Módulos: Implementa una clase ModuloJDBCDAO en la capa DAO. Su función será obtener un objeto Modulo a partir de su nombre desde la base de datos (o persistirlo si no existe).
